@@ -17,5 +17,6 @@
         public static string State { get; set; } = Faker.Address.UsState();
         public static string Zip { get; set; } = Faker.Address.ZipCode();
         public static string Country { get; set; } = Faker.Address.Country();
+        public static string Search { get; set; } = "Bulldog";
     }
 }
